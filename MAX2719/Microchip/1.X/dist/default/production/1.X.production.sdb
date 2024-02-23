@@ -1,0 +1,179 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"31 G:\Meu Drive\ECCI\2019_2_1\SeminarioMicros\Proyectos\MAX2719\Microchip\1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"38
+[v _settings settings `(v  1 e 1 0 ]
+"54
+[v _start start `(v  1 e 1 0 ]
+"60
+[v _SendSPI SendSPI `(v  1 e 1 0 ]
+"69
+[v _ReceivedSPI ReceivedSPI `(uc  1 e 1 0 ]
+"76
+[v _WriteSPI WriteSPI `(v  1 e 1 0 ]
+"100
+[v _SettingsMAX7219 SettingsMAX7219 `(v  1 e 1 0 ]
+"128
+[v _CleanMAX7219 CleanMAX7219 `(v  1 e 1 0 ]
+[s S141 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+]
+"2998 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[s S149 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+]
+[u S157 . 1 `S141 1 . 1 0 `S149 1 . 1 0 ]
+[v _LATAbits LATAbits `VES157  1 e 1 @3977 ]
+[s S105 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3457
+[s S113 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[u S121 . 1 `S105 1 . 1 0 `S113 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES121  1 e 1 @3986 ]
+[s S33 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[s S42 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S51 . 1 `S33 1 . 1 0 `S42 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES51  1 e 1 @3987 ]
+[s S73 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S80 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S87 . 1 `S73 1 . 1 0 `S80 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES87  1 e 1 @3988 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6868
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"6938
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"7193
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"10644
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"28 G:\Meu Drive\ECCI\2019_2_1\SeminarioMicros\Proyectos\MAX2719\Microchip\1.X\main.c
+[v _i i `i  1 e 2 0 ]
+"29
+[v _a a `[8]uc  1 e 8 0 ]
+"31
+[v _main main `(v  1 e 1 0 ]
+{
+"36
+} 0
+"54
+[v _start start `(v  1 e 1 0 ]
+{
+"58
+} 0
+"76
+[v _WriteSPI WriteSPI `(v  1 e 1 0 ]
+{
+[v WriteSPI@Register Register `uc  1 a 1 wreg ]
+[v WriteSPI@Register Register `uc  1 a 1 wreg ]
+[v WriteSPI@Data Data `*.39uc  1 p 2 2 ]
+[v WriteSPI@Ndatos Ndatos `i  1 p 2 4 ]
+[v WriteSPI@Register Register `uc  1 a 1 8 ]
+"86
+} 0
+"38
+[v _settings settings `(v  1 e 1 0 ]
+{
+"52
+} 0
+"100
+[v _SettingsMAX7219 SettingsMAX7219 `(v  1 e 1 0 ]
+{
+"126
+} 0
+"128
+[v _CleanMAX7219 CleanMAX7219 `(v  1 e 1 0 ]
+{
+"136
+} 0
+"60
+[v _SendSPI SendSPI `(v  1 e 1 0 ]
+{
+[v SendSPI@Data Data `uc  1 a 1 wreg ]
+[v SendSPI@Data Data `uc  1 a 1 wreg ]
+"62
+[v SendSPI@Data Data `uc  1 a 1 1 ]
+"67
+} 0
